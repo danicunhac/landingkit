@@ -1,3 +1,4 @@
+import { darken } from 'polished';
 import styled from 'styled-components';
 
 export const Wrapper = styled.section`
@@ -37,5 +38,10 @@ export const Wrapper = styled.section`
     font-weight: bold;
     font-size: 20px;
     margin-top: 2rem;
+    transition: 0.2s background-color;
+
+    :hover {
+      background-color: ${darken(0.1, '#03a9f4')};
+    }
   }
 `;

@@ -1,4 +1,4 @@
-import { Wrapper } from './style';
+import { Wrapper } from './styles';
 
 export default function Hero() {
   return (
