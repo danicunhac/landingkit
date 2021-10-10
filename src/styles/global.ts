@@ -10,6 +10,10 @@ export const GlobalStyle = createGlobalStyle`
     list-style: none;
   }
 
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
   a {
     text-decoration: none;
     cursor: pointer;

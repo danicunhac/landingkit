@@ -7,7 +7,6 @@ export const Home = () => {
     <Wrapper>
       <Head>
         <title>Starter | Home</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
     </Wrapper>
   );
