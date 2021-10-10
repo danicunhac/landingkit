@@ -26,6 +26,11 @@ export const Container = styled.div<ContainerProps>`
   display: flex;
   justify-content: ${({ justify = '' }) => justify};
   align-items: center;
+
+  strong {
+    margin-left: 0.75rem;
+    font-size: 1.75rem;
+  }
 `;
 
 export const Icon = styled.a<IconProps>`
