@@ -1,7 +1,3 @@
-import { Title } from './Title';
+import Header from './Header';
 
-export function sum(a: number, b: number) {
-  return a + b;
-}
-
-export { Title };
+export { Header };

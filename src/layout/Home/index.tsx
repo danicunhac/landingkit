@@ -1,4 +1,3 @@
-import { Title } from '@/common';
 import Head from 'next/head';
 import { Wrapper } from './styles';
 
