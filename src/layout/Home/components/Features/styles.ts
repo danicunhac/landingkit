@@ -35,6 +35,10 @@ export const MicroSections = styled.div`
   align-items: center;
   text-align: center;
 
+  @media (min-width: 601px) {
+    max-width: 75%;
+  }
+
   p {
     color: #718096;
     font-size: 20px;
