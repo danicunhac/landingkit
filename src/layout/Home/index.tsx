@@ -1,3 +1,4 @@
+import { Hero } from '@/common';
 import Head from 'next/head';
 import { Wrapper } from './styles';
 
@@ -7,6 +8,7 @@ export const Home = () => {
       <Head>
         <title>Starter | Home</title>
       </Head>
+      <Hero />
     </Wrapper>
   );
 };

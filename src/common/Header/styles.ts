@@ -1,4 +1,9 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { darken } from 'polished';
+
+type IconProps = {
+  color: string;
+};
 
 type ContainerProps = {
   width?: string;
@@ -13,6 +18,7 @@ export const Wrapper = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #f7fafc;
 `;
 
 export const Container = styled.div<ContainerProps>`
@@ -20,4 +26,15 @@ export const Container = styled.div<ContainerProps>`
   display: flex;
   justify-content: ${({ justify = '' }) => justify};
   align-items: center;
+`;
+
+export const Icon = styled.a<IconProps>`
+  ${({ color }) => css`
+    color: ${color};
+    transition: 0.2s color;
+
+    &:hover {
+      color: ${darken(0.1, color)};
+    }
+  `};
 `;
