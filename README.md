@@ -20,7 +20,7 @@
   yarn dev
 ```
 
-### Preview
+## 📱 Preview
 
 <div>
 <img align="center" width="50%" src="./public/images/mobile-preview.jpeg">
