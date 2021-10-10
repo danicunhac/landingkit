@@ -20,8 +20,7 @@
   yarn dev
 ```
 
-## 📱 Preview
+## 💻 Preview
 
-<div>
-<img align="center" width="50%" src="./public/images/mobile-preview.jpeg">
-</div>
+<img width="1440" alt="Screen Shot 2021-10-10 at 14 44 58" src="https://user-images.githubusercontent.com/28742636/136707317-a4872119-c72c-4eb5-a2b4-4e0da28d9702.png">
+
